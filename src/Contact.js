@@ -67,7 +67,7 @@ function Contact() {
               </div>
               <div>
                 <h4>Address</h4>
-                <p>Mumbai, Maharashtra</p>
+                <p>Ahmedabad, Gujarat</p>
               </div>
             </div>
           </div>
