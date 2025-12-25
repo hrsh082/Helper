@@ -243,7 +243,17 @@ a:hover {
 .banner {
   background-color: var(--banner-bg);
   color: var(--banner-text);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  background-image: url('./assets/banner_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-color 0.3s ease, color 0.3s ease, background-image 0.3s ease;
+}
+
+/* Dark theme: apply a dark overlay on the same image to preserve contrast */
+[data-theme="dark"] .banner {
+  background-image: linear-gradient(rgba(0,0,0,0.50), rgb(0, 0, 0, 0.90)), url('./assets/banner_bg.jpg');
+  color: var(--banner-text);
 }
 
 /* Helper Banner styles */

@@ -86,13 +86,10 @@ function Banner() {
   return (
     <div className="banner" style={{
       height: "200px",
-      color: "white",
       textAlign: "center",
-      paddingTop: "10px", 
-      backgroundImage: `url(${bannerbg})`, 
-      backgroundSize: "cover"
+      paddingTop: "10px"
     }}>
-      <h1 style={{color: "rgba(29, 71, 209, 1)"}}>India Needs An Helper</h1>
+      <h1 style={{color: "var(--banner-text)"}}>India Needs An Helper</h1>
        <div
           style={{
             flex: 2,
